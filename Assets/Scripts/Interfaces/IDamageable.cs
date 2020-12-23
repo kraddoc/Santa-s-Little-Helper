@@ -1,5 +1,4 @@
-﻿
-namespace SantasHelper.Interfaces
+﻿namespace SantasHelper.Interfaces
 {
     public interface IDamageable
     {

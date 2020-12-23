@@ -46,6 +46,5 @@ namespace SantasHelper.Player
             _verticalVelocity += gravity * Time.deltaTime;
             return _verticalVelocity;
         }
-        
     }
 }

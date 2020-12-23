@@ -4,19 +4,15 @@ namespace SantasHelper.Camera
 {
     public class MouseLook : MonoBehaviour
     {
-        [Header("Smoothness")] 
-        [SerializeField] [Range(0f, 500f)]
+        [Header("Smoothness")] [SerializeField] [Range(0f, 500f)]
         private float sensitivity = 50f;
 
-        [SerializeField] [Range(0f, 0.1f)] 
-        private float smoothTime = 0.025f;
+        [SerializeField] [Range(0f, 0.1f)] private float smoothTime = 0.025f;
 
-        [Header("Vertical look restrictions")] 
-        [SerializeField] [Range(-90f, -60f)]
+        [Header("Vertical look restrictions")] [SerializeField] [Range(-90f, -60f)]
         private float yMinRotation = -80f;
 
-        [SerializeField] [Range(60f, 90f)] 
-        private float yMaxRotation = 90f;
+        [SerializeField] [Range(60f, 90f)] private float yMaxRotation = 90f;
 
         [Header("Hide cursor.")] [SerializeField]
         private bool lockAndHideCursor = true;
