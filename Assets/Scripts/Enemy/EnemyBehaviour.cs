@@ -95,5 +95,10 @@ namespace SantasHelper.Enemy
                     throw new ArgumentOutOfRangeException();
             }
         }
+
+        private void Die()
+        {
+            _state = State.Dead;
+        }
     }
 }
