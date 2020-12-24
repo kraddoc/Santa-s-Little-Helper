@@ -13,7 +13,7 @@ namespace SantasHelper.Player.Weapons
 
         private void Start()
         {
-            _camera = UnityEngine.Camera.main?.transform;
+            _camera = UnityEngine.Camera.main.transform;
         }
 
         private void Update()
@@ -45,9 +45,11 @@ namespace SantasHelper.Player.Weapons
 
         private bool CanTryAttack()
         {
-            return (Input.GetButtonDown("Fire1") && _mode == WeaponMode.Press) ||
+            return ((Input.GetButtonDown("Fire1") && _mode == WeaponMode.Press) ||
                    (Input.GetButtonUp("Fire1") && _mode == WeaponMode.Release) ||
-                   (Input.GetButton("Fire1") && _mode == WeaponMode.Hold);
+                   (Input.GetButton("Fire1") && _mode == WeaponMode.Hold))
+                    &&
+                    _weapon != null;
         }
         
     }

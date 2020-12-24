@@ -14,7 +14,7 @@ namespace SantasHelper.Enemy
             _health = maxHealth;
         }
 
-        public void Damage(int damage)
+        public void GetHurt(int damage)
         {
             print($"Got {damage.ToString()} damage ");
             _health -= damage;
