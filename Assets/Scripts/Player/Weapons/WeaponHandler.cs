@@ -5,7 +5,6 @@ namespace SantasHelper.Player.Weapons
 {
     public class WeaponHandler : MonoBehaviour
     {
-        [SerializeField] private Pipe pipe;
         private IWeapon _weapon; //should only be changed with ChangeWeapon()
         private Transform _camera; //used to provide hit check direction
         
@@ -14,7 +13,6 @@ namespace SantasHelper.Player.Weapons
 
         private void Start()
         {
-            ChangeWeapon(pipe);
             _camera = UnityEngine.Camera.main?.transform;
         }
 
