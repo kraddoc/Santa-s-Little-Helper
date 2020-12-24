@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace SantasHelper.Enemy
 {
@@ -8,14 +9,23 @@ namespace SantasHelper.Enemy
         [SerializeField] [Range(0.1f, 2f)]private float flipInterval = 0.7f;
         private SpriteRenderer _sprite;
         private float _flipTimer;
+        private bool _isWalking;
 
         private void Start()
         {
             TryGetComponent(out _sprite);
         }
 
+        private void OnEnable()
+        {
+            _isWalking = true;
+        }
+
         private void Update()
         {
+            if (!_isWalking)
+                return;
+            
             if (_flipTimer < flipInterval)
             {
                 _flipTimer += Time.deltaTime;
@@ -28,7 +38,7 @@ namespace SantasHelper.Enemy
         public void Die()
         {
             _sprite.sprite = deathSprite;
-            enabled = false;
+            _isWalking = false;
         }
     }
 }
