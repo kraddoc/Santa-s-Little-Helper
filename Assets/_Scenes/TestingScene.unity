@@ -1071,7 +1071,8 @@ MonoBehaviour:
   interpolationTime: 0.5
   hitRange: 2
   hitRadius: 0.75
-  fireMode: 1
+  reloadTime: 0.3
+  mode: 1
 --- !u!1 &1600298549
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,8 +1292,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2126673659}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 477287bd817f460d912df6b4bfbe1727, type: 3}
+  m_Script: {fileID: 11500000, guid: 12b71d40fa61485295b0f105b187647d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  camera: {fileID: 963194228}
-  weapon: {fileID: 1402944690}
+  pipe: {fileID: 1402944690}

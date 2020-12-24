@@ -25,7 +25,7 @@ namespace SantasHelper.Player.Weapons
                 _holdTime = 0;
         }
         
-        public void TryAttack(IDamageable target)
+        public void Attack(IDamageable target)
         { 
             target.Damage(GetDamage(_holdTime));
         }
