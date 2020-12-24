@@ -1,5 +1,3 @@
-using System;
-using SantasHelper.Player;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -8,21 +6,13 @@ namespace SantasHelper.Enemy
     [RequireComponent(typeof(NavMeshAgent))]
     public class EnemyPathfinder : MonoBehaviour
     {
-        [SerializeField] private Transform goal;
+        private Transform _goal;
         private NavMeshAgent _navMeshAgent;
         private bool _isGoing;
         
         private void Start()
         {
-            if (goal == null)
-            {
-                goal = FindObjectOfType<PlayerWalk>().transform;//TODO probably remove this idk
-                if (goal == null)
-                {
-                    enabled = false;
-                }
-            }
-                
+            
             TryGetComponent(out _navMeshAgent);
         }
 
@@ -35,9 +25,14 @@ namespace SantasHelper.Enemy
         {
             if (!_isGoing)
                 return;
-            _navMeshAgent.destination = goal.position;
+            _navMeshAgent.destination = _goal.position;
         }
 
+        public void AssignPathfindingTarget(Transform target)
+        {
+            _goal = target;
+        }
+        
         public void Stop()
         {
             _isGoing = false;
