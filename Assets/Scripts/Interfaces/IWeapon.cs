@@ -12,10 +12,10 @@ namespace SantasHelper.Interfaces
     
     public interface IWeapon
     {
-        void Attack(IDamageable target);
+        void TryAttack(IDamageable target);
         IDamageable CheckForTarget(Vector3 from, Vector3 to);
         WeaponMode GetMode();
-        float GetReloadTime();
+        bool HasReloaded();
 
     }
 }
