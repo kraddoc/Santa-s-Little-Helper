@@ -10,13 +10,13 @@ namespace SantasHelper.Enemy
         [SerializeField] [Range(0.1f, 3f)] private float attackTime = 1f;
         [SerializeField] [Range(0.1f, 1f)] private float attackDistance = 0.5f;
         private float _currentAttackTime;
-        private bool _isAttacking;
+        public bool IsAttacking { get; private set; }
         private Transform _player;
         private PlayerHealth _playerHealth;
 
         private void Update()
         {
-            if (!_isAttacking)
+            if (!IsAttacking)
                 return;
             
             _currentAttackTime += Time.deltaTime;
@@ -30,25 +30,32 @@ namespace SantasHelper.Enemy
             _player = player.transform;
             _player.TryGetComponent(out _playerHealth);
         }
-        
+
+        public bool CloseEnough()
+        {
+            return Vector3.Distance(_player.position, transform.position) <= attackDistance;
+        }
+            
         public void StartAttack()
         {
-            if (_isAttacking || _player == null)
+            if (IsAttacking || _player == null)
                 return;
-            _isAttacking = true;
+            IsAttacking = true;
             _currentAttackTime = 0f;
         }
 
         private void EndAttack()
         {
-            _isAttacking = false;
+            IsAttacking = false;
             _currentAttackTime = 0f;
-            if (Vector3.Distance(_player.position, transform.position) <= attackDistance)
+            if (CloseEnough())
             {
                 _playerHealth.Damage();
             }
 
         }
+        
+        
         
         
     }

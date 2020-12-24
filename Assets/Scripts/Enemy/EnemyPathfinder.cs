@@ -6,7 +6,6 @@ namespace SantasHelper.Enemy
     [RequireComponent(typeof(NavMeshAgent))]
     public class EnemyPathfinder : MonoBehaviour
     {
-        private Transform _goal;
         private NavMeshAgent _navMeshAgent;
         private bool _isGoing;
         
@@ -21,20 +20,14 @@ namespace SantasHelper.Enemy
             _isGoing = true;
         }
 
-        private void Update()
+        public void SetPathfindingTarget(Transform target)
         {
-            if (!_isGoing)
-                return;
-            _navMeshAgent.destination = _goal.position;
-        }
-
-        public void AssignPathfindingTarget(Transform target)
-        {
-            _goal = target;
+            _navMeshAgent.destination = target.position;
         }
         
         public void Stop()
         {
+            _navMeshAgent.destination = transform.position;
             _isGoing = false;
         }
     }
