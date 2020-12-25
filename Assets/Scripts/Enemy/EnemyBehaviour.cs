@@ -67,13 +67,14 @@ namespace SantasHelper.Enemy
 
         private State DecideState()
         {
-            if (_attack.CloseEnough())
+            if (_attack.CloseEnough() || _attack.IsAttacking)
                 return State.Attacking;
 
-            if (_state == State.Attacking && !_attack.IsAttacking)
+            if ((_state == State.Attacking && !_attack.IsAttacking) || _state == State.Following)
             {
                 return State.Following;
-            }
+            } 
+            return State.Following;
             
             throw new Exception($"Your enemy state logic went too far on {gameObject.name}, you failed yourself.");
         }

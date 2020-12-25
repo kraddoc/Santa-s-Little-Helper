@@ -11,7 +11,6 @@ namespace SantasHelper.Enemy
         
         private void Start()
         {
-            
             TryGetComponent(out _navMeshAgent);
         }
 
@@ -22,6 +21,8 @@ namespace SantasHelper.Enemy
 
         public void SetPathfindingTarget(Transform target)
         {
+            if (_navMeshAgent == null)
+                return;
             _navMeshAgent.destination = target.position;
         }
         

@@ -5,6 +5,7 @@ using UnityEngine;
 
 namespace SantasHelper.Player.Weapons
 {
+    [RequireComponent(typeof(Animator))]
     public class Pipe : MonoBehaviour, IWeapon
     {
         [SerializeField] [Range(1, 10)] private int minDamage = 1;
@@ -18,12 +19,19 @@ namespace SantasHelper.Player.Weapons
         private float _holdTime;
         private float _currentReloadTime;
         private bool IsHolding => Input.GetButton("Fire1");
+        private Animator _animator;
 
+        private void Awake()
+        {
+            TryGetComponent(out _animator);
+        }
 
         private void Update()
         {
             if (!HasReloaded())
                 _currentReloadTime += Time.deltaTime;
+         
+            _animator.SetBool("IsCharging", IsHolding);
             
             if (IsHolding)
                 _holdTime += Time.deltaTime;

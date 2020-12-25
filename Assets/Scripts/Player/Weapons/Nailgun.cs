@@ -4,24 +4,31 @@ using UnityEngine;
 
 namespace SantasHelper.Player.Weapons
 {
+    [RequireComponent(typeof(Animator))]
     public class Nailgun : MonoBehaviour, IWeapon
     {
         
         [SerializeField] [Range(1, 10)] private int damage = 4;
         [SerializeField] [Range(1, 50)] private int startingAmmo = 20;
         [SerializeField] [Range(0.01f, 1f)] private float reloadTime = 0.25f;
+        [SerializeField] private WeaponMode mode = WeaponMode.Hold;
         private int _ammo;
-        private WeaponMode _mode = WeaponMode.Hold;
         private float _currentReloadTime;
-        public WeaponMode GetMode() => _mode;
+        private Animator _animator;
+        private bool IsShooting => Input.GetButton("Fire1") && _ammo > 0;
+        public WeaponMode GetMode() => mode;
 
         private void Start()
         {
             _ammo = startingAmmo;
+            TryGetComponent(out _animator);
         }
 
         private void Update()
         {
+
+            _animator.SetBool("IsShooting", IsShooting);
+
             if (HasReloaded()) return;
             _currentReloadTime += Time.deltaTime;
         }

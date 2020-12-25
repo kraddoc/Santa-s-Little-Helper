@@ -15,7 +15,7 @@ namespace SantasHelper
 
         private void LateUpdate()
         {
-            _transform.forward = camera.forward;
+            _transform.forward = -camera.forward;
             _transform.localEulerAngles = new Vector3(0, _transform.localEulerAngles.y, 0);
         }
     }
