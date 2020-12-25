@@ -12,7 +12,6 @@ namespace SantasHelper.Player.Weapons
         [SerializeField] [Range(2, 10)] private int maxDamage = 5;
         [SerializeField] [Range(0.01f, 1f)] private float interpolationTime = 0.5f;
         [SerializeField] [Range(0.1f, 3f)] private float hitRange = 1f;
-        [SerializeField] [Range(0.1f, 3f)] private float hitRadius = 1f;
         [SerializeField] [Range(0.1f, 1f)] private float reloadTime = 0.3f;
         [SerializeField] private WeaponMode mode = WeaponMode.Release;
         public WeaponMode GetMode() => mode;
@@ -42,8 +41,9 @@ namespace SantasHelper.Player.Weapons
         public void TryAttack(IDamageable target)
         {
             if (!HasReloaded()) return;
-            target.GetHurt(GetDamage(_holdTime));
             _currentReloadTime -= reloadTime;
+            if (target != null)
+                target.GetHurt(GetDamage(_holdTime));
 
         }
         
@@ -54,7 +54,7 @@ namespace SantasHelper.Player.Weapons
 
         public IDamageable CheckForTarget(Vector3 from, Vector3 to)
         {
-            Physics.SphereCast(from, hitRadius, to, out var hit, hitRange);
+            Physics.Raycast(from, to, out var hit, hitRange);
             return hit.collider != null && hit.collider.TryGetComponent(out IDamageable validTarget)
                 ? validTarget
                 : null;

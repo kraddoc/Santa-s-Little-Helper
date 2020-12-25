@@ -22,6 +22,15 @@ namespace SantasHelper.Player.Weapons
             {
                 TryAttack();
             }
+
+            if (Input.GetButtonDown("Fire2"))
+            {
+                Physics.Raycast(_camera.position, _camera.forward, out RaycastHit hit, 1000f);
+                if (hit.collider != null)
+                {
+                    print(hit.collider.name);
+                }
+            }
         }
 
         public void ChangeWeapon(IWeapon weapon)
@@ -32,15 +41,9 @@ namespace SantasHelper.Player.Weapons
 
         private void TryAttack()
         {
+            IDamageable target = _weapon.CheckForTarget(_camera.position, _camera.forward);
+            _weapon.TryAttack(target);
 
-            var forward = _camera.forward; //if using just _camera.position sometimes doesn't detect hits close up,
-                                                  //reducing it by _camera.forward seems to help
-            IDamageable target = _weapon.CheckForTarget(_camera.position - forward, forward);
-            if (target != null)
-            {
-                _weapon.TryAttack(target);
-            }
-                
         }
 
         private bool CanTryAttack()

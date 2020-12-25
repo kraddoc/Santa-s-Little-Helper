@@ -36,9 +36,10 @@ namespace SantasHelper.Player.Weapons
         public void TryAttack(IDamageable target)
         {
             if (!HasReloaded() || _ammo <= 0) return;
-            target.GetHurt(damage);
             _ammo--;
             _currentReloadTime -= reloadTime;
+            if (target != null)
+                target.GetHurt(damage);
         }
 
         public IDamageable CheckForTarget(Vector3 from, Vector3 to)

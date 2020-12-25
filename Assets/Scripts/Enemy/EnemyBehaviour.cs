@@ -20,6 +20,7 @@ namespace SantasHelper.Enemy
         private enum State
         {
             Following,
+            StartingAttack,
             Attacking,
             Dead
         }
@@ -67,15 +68,22 @@ namespace SantasHelper.Enemy
 
         private State DecideState()
         {
-            if (_attack.CloseEnough() || _attack.IsAttacking)
-                return State.Attacking;
+            if (_attack.CloseEnough() && !_attack.IsAttacking && _state == State.Following)
+                return State.StartingAttack;
 
-            if ((_state == State.Attacking && !_attack.IsAttacking) || _state == State.Following)
+            switch (_state)
             {
-                return State.Following;
-            } 
-            return State.Following;
-            
+                case State.StartingAttack when _attack.IsAttacking:
+                    return State.Attacking;
+                case State.Attacking when !_attack.IsAttacking:
+                    return State.Following;
+                case State.Attacking when _attack.IsAttacking:
+                    return State.Attacking;
+                case State.Dead:
+                    break;
+                default:
+                    return State.Following;
+            }
             throw new Exception($"Your enemy state logic went too far on {gameObject.name}, you failed yourself.");
         }
 
@@ -83,7 +91,7 @@ namespace SantasHelper.Enemy
         {
             switch (_state)
             {
-                case State.Attacking:
+                case State.StartingAttack:
                     _pathfinder.Stop();
                     _attack.StartAttack();
                     break;
@@ -93,6 +101,9 @@ namespace SantasHelper.Enemy
                 case State.Dead:
                     _pathfinder.Stop();
                     _animator.Die();
+                    break;
+                case State.Attacking:
+                    _pathfinder.Stop();
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
