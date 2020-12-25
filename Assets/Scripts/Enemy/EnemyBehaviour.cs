@@ -59,9 +59,6 @@ namespace SantasHelper.Enemy
 
         private void Update()
         {
-            if (_state == State.Dead)
-                return;
-
             _state = DecideState();
             HardcodeAILogic();
         }
@@ -73,14 +70,14 @@ namespace SantasHelper.Enemy
 
             switch (_state)
             {
+                case State.Dead:
+                    return State.Dead;
                 case State.StartingAttack when _attack.IsAttacking:
                     return State.Attacking;
                 case State.Attacking when !_attack.IsAttacking:
                     return State.Following;
                 case State.Attacking when _attack.IsAttacking:
                     return State.Attacking;
-                case State.Dead:
-                    break;
                 default:
                     return State.Following;
             }
@@ -94,9 +91,11 @@ namespace SantasHelper.Enemy
                 case State.StartingAttack:
                     _pathfinder.Stop();
                     _attack.StartAttack();
+                    _animator.Attack();
                     break;
                 case State.Following:
                     _pathfinder.SetPathfindingTarget(_playerTransform);
+                    _animator.Walk();
                     break;
                 case State.Dead:
                     _pathfinder.Stop();

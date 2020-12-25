@@ -55,5 +55,10 @@ namespace SantasHelper.Player.Weapons
         {
             return _currentReloadTime > reloadTime;
         }
+
+        public void GiveAmmo(int amount)
+        {
+            _ammo += amount;
+        }
     }
 }

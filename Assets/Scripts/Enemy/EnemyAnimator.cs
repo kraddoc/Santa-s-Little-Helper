@@ -6,6 +6,8 @@ namespace SantasHelper.Enemy
     public class EnemyAnimator : MonoBehaviour
     {
         [SerializeField] private Sprite deathSprite;
+        [SerializeField] private Sprite attackSprite;
+        [SerializeField] private Sprite walkSprite;
         [SerializeField] [Range(0.1f, 2f)]private float flipInterval = 0.7f;
         private SpriteRenderer _sprite;
         private float _flipTimer;
@@ -18,7 +20,8 @@ namespace SantasHelper.Enemy
 
         private void OnEnable()
         {
-            _isWalking = true;
+            TryGetComponent(out _sprite);
+            Walk();
         }
 
         private void Update()
@@ -39,6 +42,18 @@ namespace SantasHelper.Enemy
         {
             _sprite.sprite = deathSprite;
             _isWalking = false;
+        }
+
+        public void Attack()
+        {
+            _sprite.sprite = attackSprite;
+            _isWalking = false;
+        }
+
+        public void Walk()
+        {
+            _sprite.sprite = walkSprite;
+            _isWalking = true;
         }
     }
 }
