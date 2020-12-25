@@ -776,8 +776,6 @@ GameObject:
   - component: {fileID: 1154882064}
   - component: {fileID: 1154882066}
   - component: {fileID: 1154882067}
-  - component: {fileID: 1154882068}
-  - component: {fileID: 1154882069}
   m_Layer: 0
   m_Name: Spr_Enemy1
   m_TagString: Untagged
@@ -876,41 +874,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathSprite: {fileID: 0}
   flipInterval: 0.7
---- !u!195 &1154882068
-NavMeshAgent:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154882063}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
---- !u!114 &1154882069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1154882063}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 87bcae0cfea6452a96e13468a47f46f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goal: {fileID: 2126673660}
 --- !u!1 &1379503027
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,6 +51,8 @@ namespace SantasHelper.Enemy
             
             _attack.PassPlayerReference(player);
             _pathfinder.SetPathfindingTarget(player.transform);
+
+            _health.OnDeath += Die;
         }
 
 
@@ -99,6 +101,7 @@ namespace SantasHelper.Enemy
         private void Die()
         {
             _state = State.Dead;
+            _health.OnDeath -= Die;
         }
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using SantasHelper.Interfaces;
 using UnityEngine;
 
@@ -5,6 +6,8 @@ namespace SantasHelper.Enemy
 {
     public class EnemyHealth : MonoBehaviour, IDamageable
     {
+        public Action OnDeath;
+        
         [SerializeField] [Range(1, 25)] private int maxHealth = 10;
         private int _healthCurrent;
         
@@ -24,6 +27,7 @@ namespace SantasHelper.Enemy
         private void Die()
         {
             print("I died");
+            OnDeath?.Invoke();
         }
     }
 }
