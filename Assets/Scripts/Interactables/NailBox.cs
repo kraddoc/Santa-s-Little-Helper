@@ -18,6 +18,7 @@ namespace SantasHelper.Interactables
                 throw new Exception("nail box didnt had gun doofus");
             
             gun.GiveAmmo(ammo);
+            gameObject.SetActive(false);
         }
     }
 }

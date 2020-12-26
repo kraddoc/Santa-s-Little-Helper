@@ -7,17 +7,19 @@ namespace SantasHelper.Interactables
     public class GiftBox : MonoBehaviour, IInteractable
     {
         [SerializeField] private Material opaque;
-        private Renderer _renderer;
-
-        private void Awake()
-        {
-            TryGetComponent(out _renderer);
-        }
+        [SerializeField] private ObjectiveChecker collector;
+        [SerializeField] private Renderer renderer;
+        private bool _hasInteracted = false;
 
 
         public void Interact()
         {
-            _renderer.material = opaque;
+            if (_hasInteracted)
+                return;
+            renderer.material = opaque;
+            collector.AddBox();
+            _hasInteracted = true;
+            enabled = false;
         }
     }
 }

@@ -14,6 +14,9 @@ namespace SantasHelper.Player.Weapons
         private void Awake()
         {
             TryGetComponent(out _weaponHandler);
+            pipe.gameObject.SetActive(false);
+            nailgun.gameObject.SetActive(true);
+            _weaponHandler.ChangeWeapon(nailgun);
         }
 
         private void Update()
