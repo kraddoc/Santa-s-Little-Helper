@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.09327163, g: 0.10247023, b: 0.1509434, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.03
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.060784314, g: 0.068627454, b: 0.11960784, a: 1}
@@ -183,7 +183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &3708987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &3708988
 BoxCollider:
@@ -242,7 +242,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3708981}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -388,7 +388,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &9386873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &9386874
 BoxCollider:
@@ -447,7 +447,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9386867}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -1483,7 +1483,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1519,7 +1519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &58260933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1532,7 +1532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &58260934
 BoxCollider:
@@ -1542,7 +1542,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 58260927}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -2000,7 +2000,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2036,7 +2036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &69180742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2049,7 +2049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &69180743
 BoxCollider:
@@ -2059,7 +2059,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 69180736}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -2205,7 +2205,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &77384562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &77384563
 BoxCollider:
@@ -2264,7 +2264,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77384556}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -2410,7 +2410,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2446,7 +2446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &78774272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2459,7 +2459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &78774273
 BoxCollider:
@@ -2469,7 +2469,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 78774266}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -3037,7 +3037,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3073,7 +3073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &115489600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3086,7 +3086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &115489601
 BoxCollider:
@@ -3096,7 +3096,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 115489594}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -3846,7 +3846,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -3882,7 +3882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &130657122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3895,7 +3895,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &130657123
 BoxCollider:
@@ -3905,7 +3905,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130657116}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -4147,7 +4147,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4183,7 +4183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &133940789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4196,7 +4196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &133940790
 BoxCollider:
@@ -4206,7 +4206,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133940783}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -4587,7 +4587,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4623,7 +4623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &158915587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4636,7 +4636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &158915588
 BoxCollider:
@@ -4646,7 +4646,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 158915581}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -4804,6 +4804,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160705784}
   m_CullTransparentMesh: 0
+--- !u!1 &166667415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 166667417}
+  - component: {fileID: 166667416}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &166667416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166667415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 12606b5449ef4b740bfd86db1db71511, type: 2}
+--- !u!4 &166667417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 166667415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -29.944593, y: -21.84949, z: 17.113777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &167767238
 GameObject:
   m_ObjectHideFlags: 0
@@ -4962,7 +5010,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -4998,7 +5046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &172926106
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5011,7 +5059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &172926107
 BoxCollider:
@@ -5021,7 +5069,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172926100}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -5551,7 +5599,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -5587,7 +5635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &186067542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5600,7 +5648,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &186067543
 BoxCollider:
@@ -5610,7 +5658,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186067536}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -6805,7 +6853,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -6841,7 +6889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &280278779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6854,7 +6902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &280278780
 BoxCollider:
@@ -6864,7 +6912,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280278773}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -7010,7 +7058,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7046,7 +7094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &287380670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7059,7 +7107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &287380671
 BoxCollider:
@@ -7069,7 +7117,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287380664}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -7347,7 +7395,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7383,7 +7431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &298402021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7396,7 +7444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &298402022
 BoxCollider:
@@ -7406,7 +7454,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298402015}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -7728,7 +7776,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7764,7 +7812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &310058396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7777,7 +7825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &310058397
 BoxCollider:
@@ -7787,7 +7835,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 310058390}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -7933,7 +7981,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -7969,7 +8017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &317248126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7982,7 +8030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &317248127
 BoxCollider:
@@ -7992,7 +8040,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 317248120}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -8234,7 +8282,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -8270,7 +8318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &335959888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8283,7 +8331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &335959889
 BoxCollider:
@@ -8293,7 +8341,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 335959882}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -8978,7 +9026,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9014,7 +9062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &404592469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9027,7 +9075,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &404592470
 BoxCollider:
@@ -9037,7 +9085,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 404592463}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -9279,7 +9327,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9315,7 +9363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &407144905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9328,7 +9376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &407144906
 BoxCollider:
@@ -9338,7 +9386,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 407144899}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -9837,7 +9885,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -9873,7 +9921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &425944567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9886,7 +9934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &425944568
 BoxCollider:
@@ -9896,7 +9944,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425944561}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -10988,7 +11036,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -11024,7 +11072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &491601680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11037,7 +11085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &491601681
 BoxCollider:
@@ -11047,7 +11095,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 491601674}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -11953,7 +12001,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -11989,7 +12037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &532109365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12002,7 +12050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &532109366
 BoxCollider:
@@ -12012,7 +12060,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532109359}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -12158,7 +12206,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -12194,7 +12242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &542304758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12207,7 +12255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &542304759
 BoxCollider:
@@ -12217,7 +12265,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542304752}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -12684,7 +12732,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -12720,7 +12768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &559562848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12733,7 +12781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &559562849
 BoxCollider:
@@ -12743,7 +12791,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 559562842}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -13360,7 +13408,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -13396,7 +13444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &596868225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13409,7 +13457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &596868226
 BoxCollider:
@@ -13419,7 +13467,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 596868219}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -14920,7 +14968,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -14956,7 +15004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &675426079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14969,7 +15017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &675426080
 BoxCollider:
@@ -14979,7 +15027,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675426073}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -15447,7 +15495,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -15483,7 +15531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &692960606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15496,7 +15544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &692960607
 BoxCollider:
@@ -15506,7 +15554,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 692960600}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -16337,7 +16385,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -16373,7 +16421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &750198864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16386,7 +16434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &750198865
 BoxCollider:
@@ -16396,7 +16444,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750198858}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -16593,7 +16641,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &752520247
 Transform:
   m_ObjectHideFlags: 0
@@ -16805,7 +16853,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -16841,7 +16889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &765693825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16854,7 +16902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &765693826
 BoxCollider:
@@ -16864,7 +16912,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 765693819}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -17298,7 +17346,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -17334,7 +17382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &795059258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17347,7 +17395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &795059259
 BoxCollider:
@@ -17357,7 +17405,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 795059252}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -17608,7 +17656,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -17644,7 +17692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &810291183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17657,7 +17705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &810291184
 BoxCollider:
@@ -17667,7 +17715,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 810291177}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -18230,7 +18278,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -18266,7 +18314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &836892083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18279,7 +18327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &836892084
 BoxCollider:
@@ -18289,7 +18337,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836892077}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -18531,7 +18579,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -18567,7 +18615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &844394613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18580,7 +18628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &844394614
 BoxCollider:
@@ -18590,7 +18638,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844394607}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -19317,7 +19365,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -19353,7 +19401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &870126394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19366,7 +19414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &870126395
 BoxCollider:
@@ -19376,7 +19424,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870126388}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -19522,7 +19570,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -19558,7 +19606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &870413042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19571,7 +19619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &870413043
 BoxCollider:
@@ -19581,7 +19629,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870413036}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -20507,7 +20555,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -20543,7 +20591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &921640054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20556,7 +20604,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &921640055
 BoxCollider:
@@ -20566,7 +20614,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921640048}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -20904,7 +20952,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -20940,7 +20988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &931040140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20953,7 +21001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &931040141
 BoxCollider:
@@ -20963,7 +21011,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 931040134}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -21661,7 +21709,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -21696,7 +21744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 430e7265bface7444bebdd9e7f04e5ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 250
+  sensitivity: 225
   smoothTime: 0.03
   yMinRotation: -80
   yMaxRotation: 85
@@ -21859,7 +21907,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -21895,7 +21943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &968474152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21908,7 +21956,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &968474153
 BoxCollider:
@@ -21918,7 +21966,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968474146}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -22546,7 +22594,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -22582,7 +22630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1034653252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22595,7 +22643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1034653253
 BoxCollider:
@@ -22605,7 +22653,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034653246}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -23327,7 +23375,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -23363,7 +23411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1070123666
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23376,7 +23424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1070123667
 BoxCollider:
@@ -23386,7 +23434,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070123660}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -25135,7 +25183,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -25171,7 +25219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1151024277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25184,7 +25232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1151024278
 BoxCollider:
@@ -25194,7 +25242,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151024271}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -25404,7 +25452,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1154882063}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -25419,7 +25467,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -25455,7 +25503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1154882072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25468,7 +25516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!114 &1154882073
 MonoBehaviour:
@@ -25833,7 +25881,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -25869,7 +25917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1178708391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25882,7 +25930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1178708392
 BoxCollider:
@@ -25892,7 +25940,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178708385}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -28441,7 +28489,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -28477,7 +28525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1321521303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28490,7 +28538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1321521304
 BoxCollider:
@@ -28500,7 +28548,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321521297}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -28766,7 +28814,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -28802,7 +28850,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1336083904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28815,7 +28863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1336083905
 BoxCollider:
@@ -28825,7 +28873,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1336083898}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -28971,7 +29019,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -29007,7 +29055,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1339304676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29020,7 +29068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1339304677
 BoxCollider:
@@ -29030,7 +29078,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339304670}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -29347,7 +29395,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -29383,7 +29431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1347490157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29396,7 +29444,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1347490158
 BoxCollider:
@@ -29406,7 +29454,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347490151}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -29744,7 +29792,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -29780,7 +29828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1363701484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29793,7 +29841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1363701485
 BoxCollider:
@@ -29803,7 +29851,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363701478}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -29949,7 +29997,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -29985,7 +30033,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1368041968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29998,7 +30046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1368041969
 BoxCollider:
@@ -30008,7 +30056,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368041962}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -30346,7 +30394,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -30382,7 +30430,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1392831625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30395,7 +30443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1392831626
 BoxCollider:
@@ -30405,7 +30453,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392831619}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -30839,7 +30887,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -30875,7 +30923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1400440288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30888,7 +30936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1400440289
 BoxCollider:
@@ -30898,7 +30946,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1400440282}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -32004,7 +32052,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -32040,7 +32088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1468695301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32053,7 +32101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1468695302
 BoxCollider:
@@ -32063,7 +32111,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468695295}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -32305,7 +32353,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -32341,7 +32389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1494796853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32354,7 +32402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1494796854
 BoxCollider:
@@ -32364,7 +32412,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494796847}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -32510,7 +32558,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -32546,7 +32594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1498155703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32559,7 +32607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1498155704
 BoxCollider:
@@ -32569,7 +32617,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498155697}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -32715,7 +32763,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -32751,7 +32799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1524635155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32764,7 +32812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1524635156
 BoxCollider:
@@ -32774,7 +32822,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524635149}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -33016,7 +33064,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -33052,7 +33100,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1556970021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33065,7 +33113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1556970022
 BoxCollider:
@@ -33075,7 +33123,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556970015}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -33317,7 +33365,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -33353,7 +33401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1570990188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33366,7 +33414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1570990189
 BoxCollider:
@@ -33376,7 +33424,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1570990182}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -35401,7 +35449,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -35437,7 +35485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1674579801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35450,7 +35498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1674579802
 BoxCollider:
@@ -35460,7 +35508,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1674579795}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -35841,7 +35889,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -35877,7 +35925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1688843959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35890,7 +35938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1688843960
 BoxCollider:
@@ -35900,7 +35948,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1688843953}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -36246,7 +36294,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -36282,7 +36330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1693519455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36295,7 +36343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1693519456
 BoxCollider:
@@ -36305,7 +36353,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1693519449}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -36451,7 +36499,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -36487,7 +36535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1694003552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36500,7 +36548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1694003553
 BoxCollider:
@@ -36510,7 +36558,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1694003546}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -37351,7 +37399,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -37387,7 +37435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1729039701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37400,7 +37448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1729039702
 BoxCollider:
@@ -37410,7 +37458,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1729039695}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -38514,7 +38562,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -38550,7 +38598,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1820281443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38563,7 +38611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1820281444
 BoxCollider:
@@ -38573,7 +38621,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820281437}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -39191,7 +39239,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -39227,7 +39275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1880591281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39240,7 +39288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1880591282
 BoxCollider:
@@ -39250,7 +39298,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880591275}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -39566,7 +39614,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -39602,7 +39650,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1890236332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39615,7 +39663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1890236333
 BoxCollider:
@@ -39625,7 +39673,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1890236326}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -39771,7 +39819,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -39807,7 +39855,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1898561588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39820,7 +39868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1898561589
 BoxCollider:
@@ -39830,7 +39878,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898561582}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -40264,7 +40312,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -40300,7 +40348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1920834356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40313,7 +40361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1920834357
 BoxCollider:
@@ -40323,7 +40371,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920834350}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -40757,7 +40805,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -40793,7 +40841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1945031909
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40806,7 +40854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1945031910
 BoxCollider:
@@ -40816,7 +40864,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1945031903}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -41163,7 +41211,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -41199,7 +41247,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &1971078958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41212,7 +41260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &1971078959
 BoxCollider:
@@ -41222,7 +41270,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1971078952}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -41702,7 +41750,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -41738,7 +41786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &2016293750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41751,7 +41799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &2016293751
 BoxCollider:
@@ -41761,7 +41809,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016293744}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -42387,7 +42435,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -42423,7 +42471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &2072377279
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42436,7 +42484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &2072377280
 BoxCollider:
@@ -42446,7 +42494,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072377273}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -42954,7 +43002,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -42990,7 +43038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &2115376660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43003,7 +43051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &2115376661
 BoxCollider:
@@ -43013,7 +43061,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2115376654}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -43234,7 +43282,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -43270,7 +43318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &2124157840
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43283,7 +43331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &2124157841
 BoxCollider:
@@ -43293,7 +43341,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2124157834}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
@@ -43445,7 +43493,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec5f168ff054e8240b11faf4871d2a4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6
+  speed: 5
   gravity: 13
   inertia: 0.075
 --- !u!114 &2126673663
@@ -43784,7 +43832,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.35
-  m_Speed: 4
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -43820,7 +43868,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca485b3133cd4842ae12e0319d7d0b8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 8
 --- !u!114 &2141653979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43833,7 +43881,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1582b5a15b1145a488e87587a09f2eb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackTime: 0.5
+  attackTime: 0.25
   attackDistance: 1
 --- !u!65 &2141653980
 BoxCollider:
@@ -43843,7 +43891,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2141653973}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.88, y: 2, z: 0.06896448}
